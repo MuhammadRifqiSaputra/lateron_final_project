@@ -28,3 +28,13 @@ dist-ssr
 .env.local
 .env.production
 .env.development
+
+# Environment Variables
+.env
+.env.local
+.env.production
+.env.development
+
+env.env
+env2.env
+*.env
