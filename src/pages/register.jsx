@@ -88,7 +88,7 @@ const [confirmPassword, setConfirmPassword] = useState("");
     }
 
     const response = await fetch(
-      `${import.meta.env.VITE_API_URL}/users`,
+      "/users/login",
       {
         method: "POST",
         headers: {
