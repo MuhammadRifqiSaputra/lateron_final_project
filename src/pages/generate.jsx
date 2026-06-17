@@ -185,7 +185,7 @@ console.log(roadmapWeeks);
 console.log("TYPE:", typeof roadmapWeeks);
 console.log("LENGTH:", roadmapWeeks.length);
 
-await fetch("http://localhost:3000/roadmaps", {
+await fetch("/roadmaps", {
   method: "POST",
   headers: {
     "Content-Type": "application/json",

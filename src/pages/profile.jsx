@@ -177,8 +177,8 @@ useEffect(() => {
   const loadProfile = async () => {
     try {
       const response = await fetch(
-        `http://localhost:3000/users/${userId}`
-      );
+  `/users/${userId}`
+);
 
       const data = await response.json();
 
@@ -220,8 +220,8 @@ useEffect(() => {
     try {
 
       const response = await fetch(
-        `http://localhost:3000/reminders/${userId}`
-      );
+  `/reminders/${userId}`
+);
 
       const data = await response.json();
 
@@ -281,8 +281,7 @@ const handleReminderToggle = async () => {
 
   try {
 
-    await fetch(
-      "http://localhost:3000/reminders",
+    await fetch("/roadmaps",
       {
         method: "POST",
         headers: {
@@ -355,7 +354,7 @@ const handleReminderToggle = async () => {
     }
 
     await fetch(
-  `http://localhost:3000/users/${userId}`,
+  `/users/${userId}`,
   {
     method: "PUT",
     headers: {

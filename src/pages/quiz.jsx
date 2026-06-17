@@ -310,7 +310,7 @@ export default function Quiz() {
   return;
 }
 
-fetch("http://localhost:3000/quiz/submit", {
+ffetch("/quiz/submit", {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
